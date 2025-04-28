@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Section </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            padding: 40px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .features,
+        .services,
+        .portfolio,
+        .pricing,
+        .blog,
+        .media,
+        .logos,
+        .team,
+        .form-layout,
+        .product-showcase {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            width: calc(33% - 40px);
+        }
+
+        .form-layout>div {
+            flex: 1;
+        }
+
+        .two-column {
+            display: flex;
+            gap: 40px;
+        }
+
+        .scrollable-section {
+            height: 100vh;
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <h2>Homepage Introduction</h2>
+        <p>Welcome to our website !</p>
+    </section>
+
+    <section class="features">
+        <div class="card">Feature 1</div>
+        <div class="card">Feature 2</div>
+        <div class="card">Feature 3</div>
+    </section>
+
+    <section class="services">
+        <div class="card">🔧 Maintenance</div>
+        <div class="card">📦 Delivery</div>
+        <div class="card">💼 Consulting</div>
+    </section>
+
+    <section>
+        <h2>Testimonials</h2>
+        <blockquote>"This site changed my life!" – Yash</blockquote>
+    </section>
+
+    <section class="team">
+        <div class="card">Nikhil Kamath - CEO</div>
+        <div class="card">Nitin kamath- CTO</div>
+    </section>
+
+    <section class="form-layout">
+        <div>
+            <h2>Instructions</h2>
+            <p>Please fill the form carefully.</p>
+        </div>
+        <div>
+            <form>
+                <input type="text" placeholder="Name"><br>
+                <input type="email" placeholder="Email"><br>
+                <button>Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="two-column">
+        <div>
+            <h2>Column 1</h2>
+            <p>Details here</p>
+        </div>
+        <div>
+            <h2>Column 2</h2>
+            <p>More info</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Simple Section</h2>
+        <p>Just a heading and paragraph</p>
+    </section>
+
+    <section class="portfolio">
+        <div class="card">Project A</div>
+        <div class="card">Project B</div>
+        <div class="card">Project C</div>
+    </section>
+
+    <section>
+        <h2>FAQs</h2>
+        <details>
+            <summary>What is this?</summary>
+            <p>This is an FAQ section.</p>
+        </details>
+        <details>
+            <summary>How does it work?</summary>
+            <p>Using &lt;details&gt; and &lt;summary&gt; tags.</p>
+        </details>
+    </section>
+
+    <section class="blog">
+        <div class="card">Blog Post 1</div>
+        <div class="card">Blog Post 2</div>
+    </section>
+
+    <section class="media">
+        <video width="300" controls>
+            <source src="https://youtube.com/embed/k8b4fEAqLdk" type="video">
+        </video>
+        <iframe width="300" height="200" src="https://youtube.com/embed/fb4rgYbi84c"></iframe>
+    </section>
+
+    <section class="logos">
+        <img src="https://upload.wikimedia.org/wikipedia/sco/thumb/b/bf/KFC_logo.svg/1200px-KFC_logo.svg.png"
+            alt="Client 1" width="100" loading="lazy">
+        <img src="https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2024/07/p-1-91164161-mcdonalds-q2-earnings.jpg"
+            alt="Client 2" width="100">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/800px-Starbucks_Corporation_Logo_2011.svg.png"
+            alt="Client 3" width="100">
+    </section>
+
+    <section class="pricing">
+        <div class="card">Free Plan</div>
+        <div class="card">Pro Plan</div>
+        <div class="card">Enterprise Plan</div>
+    </section>
+
+    <section>
+        <h2>About Us</h2>
+        <p><strong>Mission:</strong> Empower users with great tools.</p>
+        <p><strong>Vision:</strong> Be the go-to platform globally.</p>
+    </section>
+
+    <section>
+        <h2>Mobile App</h2>
+        <p>Download our mobile app from the Play Store or App Store today.</p>
+    </section>
+
+    <section>
+        <h2>Call to Action</h2>
+        <button>Join Us Now</button>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button>Send</button>
+        </form>
+    </section>
+
+    <section class="product-showcase">
+        <div class="card">Product A</div>
+        <div class="card">Product B</div>
+        <div class="card">Product C</div>
+    </section>
+
+    <section class="scrollable-section">
+        <h2>Scrollable Block</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptate debitis consequatur. Porro explicabo
+            optio facere vitae laborum placeat iste quibusdam aliquam quos fuga corporis, consequatur quam. Illum,
+            reiciendis possimus.</p>
+    </section>
+
+    <iframe src="" frameborder="0"></iframe>
+</body>
+
+</html>
